@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Mehfil - Authentic Hyderabadi Dum Biryani</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="nav-container">
+        <div class="logo">
+          <span class="star-icon">✦</span>
+          <h1>Star Mehfil</h1>
+        </div>
+        <div class="nav-links" id="nav-links">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#specialties" class="nav-link">Specialties</a>
+          <a href="#menu" class="nav-link">Menu</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="mobile-toggle" id="mobile-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="stars-container" id="stars-container"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text animate-fade-in">
+          <span class="star-badge">✦ AUTHENTIC HYDERABADI CUISINE ✦</span>
+          <h1>Experience The <span class="highlight">Stellar</span> Taste Of Royal Biryani</h1>
+          <p>Exquisite flavors of Hyderabad's famous Dum Biryani served in a celestial ambiance.</p>
+          <div class="hero-buttons">
+            <a href="#menu" class="btn btn-primary">Explore Menu</a>
+            <a href="#contact" class="btn btn-secondary">Visit Us</a>
+          </div>
+        </div>
+        <div class="hero-image animate-float">
+          <img src="https://images.unsplash.com/photo-1633945274405-b6c8069047b0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hyderabadi Biryani">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specialties Section -->
+  <section id="specialties" class="specialties-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-star">✦</span>
+        <h2>Our Specialties</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="specialties-container">
+        <div class="specialty-card animate-reveal">
+          <div class="specialty-image">
+            <img src="https://images.unsplash.com/photo-1633945274411-51898b94348c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hyderabadi Biryani">
+          </div>
+          <div class="specialty-content">
+            <h3>Hyderabadi Dum Biryani</h3>
+            <p>Authentic Hyderabadi Dum Biryani prepared with aromatic basmati rice, tender meat, and our special blend of spices.</p>
+          </div>
+        </div>
+        <div class="specialty-card animate-reveal">
+          <div class="specialty-image">
+            <img src="https://images.unsplash.com/photo-1628294895950-9805252327bc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Kebabs">
+          </div>
+          <div class="specialty-content">
+            <h3>Succulent Kebabs</h3>
+            <p>Tender and juicy kebabs marinated in yogurt and spices, then cooked to perfection in our traditional clay oven.</p>
+          </div>
+        </div>
+        <div class="specialty-card animate-reveal">
+          <div class="specialty-image">
+            <img src="https://images.unsplash.com/photo-1605807646983-377bc5a76493?q=80&w=1524&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Desserts">
+          </div>
+          <div class="specialty-content">
+            <h3>Royal Desserts</h3>
+            <p>Indulge in our heavenly desserts like Qubani Ka Meetha and Double Ka Meetha that perfectly capture the royal essence of Hyderabadi cuisine.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-star">✦</span>
+        <h2>Our Menu</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="menu-tabs">
+        <div class="menu-tab active" data-tab="biryani">Biryani</div>
+        <div class="menu-tab" data-tab="kebabs">Kebabs</div>
+        <div class="menu-tab" data-tab="special">Specials</div>
+        <div class="menu-tab" data-tab="dessert">Desserts</div>
+      </div>
+
+      <div class="menu-items-container active" id="biryani-menu">
+        <div class="menu-item animate-reveal">
+          <div class="menu-item-image">
+            <img src="https://images.unsplash.com/photo-1633945274105-071c114f8359?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Chicken Biryani">
+          </div>
+          <div class="menu-item-content">
+            <div class="menu-item-header">
+              <h3>Chicken Dum Biryani</h3>
+              <span class="price">₹450</span>
+            </div>
+            <p>Fragrant basmati rice cooked with tender chicken pieces in a blend of aromatic spices.</p>
+          </div>
+        </div>
+        <div class="menu-item animate-reveal">
+          <div class="menu-item-image">
+            <img src="https://images.unsplash.com/photo-1642821373181-696a54913e93?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mutton Biryani">
+          </div>
+          <div class="menu-item-content">
+            <div class="menu-item-header">
+              <h3>Mutton Dum Biryani</h3>
+              <span class="price">₹550</span>
+            </div>
+            <p>Slow-cooked basmati rice with succulent mutton pieces, infused with traditional spices.</p>
+          </div>
+        </div>
+        <div class="menu-item animate-reveal">
+          <div class="menu-item-image">
+            <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Vegetable Biryani">
+          </div>
+          <div class="menu-item-content">
+            <div class="menu-item-header">
+              <h3>Vegetable Dum Biryani</h3>
+              <span class="price">₹350</span>
+            </div>
+            <p>Fresh vegetables and basmati rice cooked together with saffron and whole spices.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items-container" id="kebabs-menu">
+        <!-- Kebabs menu items will be loaded via JavaScript -->
+      </div>
+
+      <div class="menu-items-container" id="special-menu">
+        <!-- Special menu items will be loaded via JavaScript -->
+      </div>
+
+      <div class="menu-items-container" id="dessert-menu">
+        <!-- Dessert menu items will be loaded via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-star">✦</span>
+        <h2>Our Story</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="about-container">
+        <div class="about-image animate-reveal">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Restaurant Interior">
+        </div>
+        <div class="about-content animate-reveal">
+          <h3>A Culinary Journey Through the Stars</h3>
+          <p>Star Mehfil was founded in 2010 with a singular mission: to bring the authentic flavors of Hyderabad to food enthusiasts. Our journey began when our founder, Chef Rahim Khan, decided to share his family's centuries-old biryani recipe with the world.</p>
+          <p>What sets us apart is our unwavering commitment to authenticity. We use traditional cooking methods like the 'Dum' technique, where the biryani is slow-cooked in sealed containers to lock in all the flavors and aromas.</p>
+          <p>Our celestial-themed ambiance complements our stellar cuisine, creating an unforgettable dining experience that transports you to the royal courts of the Nizams.</p>
+          <div class="about-features">
+            <div class="feature">
+              <span class="feature-icon">✦</span>
+              <span>Traditional Recipes</span>
+            </div>
+            <div class="feature">
+              <span class="feature-icon">✦</span>
+              <span>Premium Ingredients</span>
+            </div>
+            <div class="feature">
+              <span class="feature-icon">✦</span>
+              <span>Authentic Taste</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-star">✦</span>
+        <h2>Customer Reviews</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="testimonials-container">
+        <div class="testimonial-card animate-reveal">
+          <div class="testimonial-stars">
+            ★★★★★
+          </div>
+          <p class="testimonial-text">"The biryani here is simply out of this world! The flavors are perfectly balanced, and you can taste the authenticity in every bite. A true gem in the city."</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rajesh Kumar">
+            <div>
+              <h4>Rajesh Kumar</h4>
+              <p>Food Blogger</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card animate-reveal">
+          <div class="testimonial-stars">
+            ★★★★★
+          </div>
+          <p class="testimonial-text">"The ambiance is as impressive as the food. The celestial theme creates a unique dining experience, and their mutton biryani is the best I've had in years!"</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Priya Sharma">
+            <div>
+              <h4>Priya Sharma</h4>
+              <p>Regular Customer</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card animate-reveal">
+          <div class="testimonial-stars">
+            ★★★★★
+          </div>
+          <p class="testimonial-text">"From the service to the food, everything here is stellar. Their kebabs are succulent and the desserts are heavenly. Highly recommended!"</p>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/men/62.jpg" alt="Ahmed Khan">
+            <div>
+              <h4>Ahmed Khan</h4>
+              <p>Food Critic</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-star">✦</span>
+        <h2>Contact Us</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info animate-reveal">
+          <h3><span class="section-star">✦</span> Visit Our Restaurant</h3>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <h4>Our Location</h4>
+              <p>
+                123 Stellar Avenue,<br>
+                Banjara Hills, Hyderabad,<br>
+                Telangana 500034
+              </p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div>
+              <h4>Business Hours</h4>
+              <p>
+                Monday - Friday: 11:30 AM - 10:30 PM<br>
+                Saturday - Sunday: 11:00 AM - 11:00 PM
+              </p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div>
+              <h4>Contact Us</h4>
+              <p>
+                Reservations: +91 9876543210<br>
+                Email: info@starmehfil.com
+              </p>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="#" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-yelp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="map-container animate-reveal">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30452.59043312957!2d78.40271243476561!3d17.427059099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97a625c61ccb%3A0x5004331672e8fb7c!2sBanjara%20Hills%2C%20Hyderabad%2C%20Telangana%2C%20India!5e0!3m2!1sen!2sus!4v1618398464183!5m2!1sen!2sus" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"
+            title="Star Mehfil location">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-gradient"></div>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo animate-reveal">
+          <span class="star-icon">✦</span>
+          <h2>Star Mehfil</h2>
+        </div>
+        <div class="footer-links animate-reveal">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <hr class="footer-divider">
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="current-year"></span> Star Mehfil. All rights reserved.
+        </p>
+        <div class="footer-social">
+          <a href="#" class="footer-social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="footer-social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="footer-social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="footer-social-icon">
+            <i class="fab fa-yelp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
